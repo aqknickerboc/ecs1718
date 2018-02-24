@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            
+            <style>
+                body {background-color: #d4ffd9;}
+                h1 {color: lime;}
+                h2 {color: green;}
+                h5 {color: yellow;}
+            </style>
+            <title>
+                The Echidna Webpage
+            </title>
+        </head>
+        <body>
+            <center>
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Title">Title</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Pictures">Pictures</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Collapse">Collapse</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="#Websites">Websites</a>
+                    </li>
+                  </ul>
+                </nav>
+
+                <div id="Title" class="jumbotron" style="background-color: lightgrey;">
+                    <h1>THE ECHIDNA</h1>
+                    <h2>Tachyglossidae</h2>
+                </div>
+                <div>
+                    <nav class="navbar navbar-expand-sm bg-success navbar-light">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://aqknickerboc.github.io/ecs1718/HTML/practice1.html">Practice Webpage</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://aqknickerboc.github.io/ecs1718/HTML/table1.html">Table Webpage</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://aqknickerboc.github.io/ecs1718/HTML/FavoriteAnimal.html">Favorite Animal Webpage</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <br><br>
+                <center>
+               
+                </center>
+                
+                    <br><br><br>
+                    
+                <div id="Websites" class="">
+                    <a href="https://www.wired.com/2014/07/the-creature-feature-10-fun-facts-about-the-echidna/" data-toggle="tooltip" title="This website tells you about the echidna appearance and mating." class="btn btn-secondary" role="button">Fun Facts!</a>
+                    <a href="http://animals.sandiegozoo.org/animals/echidna" data-toggle="tooltip" title="This website has many facts about the echidna, including eating habits and family life." class="btn btn-success" role="button">Other Facts!</a> 
+                    <a href="https://www.livescience.com/57267-echidna-facts.html" data-toggle="tooltip" title="This website talks about the species information and their habitat." class="btn btn-dark" role="button">Even More Facts!</a> 
+                </div>
+                
+                
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Eating Habits!</button>
+                <div id="demo" class="collapse">
+   The echidna eats ants and termites. Other types eat worms and insect larvae. They eat them by using their long sticky tongue, which is stuck down the tunnels of the insect’s nest. The food sticks to the tongue and then eaten as it is drawn back into the mouth.
+  </div>
+                <div id="Pictures" class="row">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://media.mnn.com/assets/images/2017/08/echidna-on-ground.jpg" alt="Echidna" width="840" height="600">
+                <div class="carousel-caption">
+                    <h5>This is a picture of a echidna sitting on the ground, from the forest where they live.</h5>
+                </div>   
+                </div>
+                <div class="carousel-item">
+                    <img src="http://www.animalfactsencyclopedia.com/images/echidna-short-beaked.jpg" alt="Short nosed echidna" width="840" height="600">
+                <div class="carousel-caption">
+                    <h5>This is a short nosed echidna from the Animal Facts Encyclopedia.</h5>
+                </div>   
+                </div>
+                <div class="carousel-item">
+                    <img src="http://i.dailymail.co.uk/i/pix/2015/03/02/263A0D1B00000578-2974889-they_begin_to_eat_termites_and_ants_soon_after_leaving_the_pouch-a-8_1425266769008.jpg" alt="Puggle" width="960" height="600">
+                <div class="carousel-caption">
+                    <h5>This is a baby echidna, they are called puggles!</h5>
+                </div>   
+                </div>
+                <div class="carousel-item">
+                    <img src="http://www.bushpea.com/ma/ph/vik/bp/short-beaked%20echidna%2006.jpg" alt="Powerful claws" width="960" height="540">
+                <div class="carousel-caption">
+                    <h5>Echidnas have powerful claws that they use to break into insect nests.</h5>
+                </div>   
+                </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                </div> 
+                <br><br>
+            </center>
+        </body>
+    </html>
