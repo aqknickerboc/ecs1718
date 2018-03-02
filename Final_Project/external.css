@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://www.walldevil.com/wallpapers/a53/wallpaper-desktop-plant-plants-leaves-computer-flower.jpg");
+}
+
+h1{
+    text-align: center;
+    color: white;
+    
+}
+h4{
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   font-size: 25px;
+}
+
+.navbar li { color: #515452 } 
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
